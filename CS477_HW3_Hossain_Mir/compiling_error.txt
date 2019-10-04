@@ -1,0 +1,12 @@
+C:\Users\wonde\Desktop\CS477\CS477_HW3_Hossain_Mir\problem3.cpp: In function 'void mergeSubArrays(int*, int*, int, int, int)':
+C:\Users\wonde\Desktop\CS477\CS477_HW3_Hossain_Mir\problem3.cpp:67:25: error: cannot convert 'int*' to 'char*' for argument '1' to 'void displayCharArray(char*, int)'
+  displayCharArray(arr, r);
+                         ^
+C:\Users\wonde\Desktop\CS477\CS477_HW3_Hossain_Mir\problem3.cpp: In function 'void mergeSort(char*, char*, int, int)':
+C:\Users\wonde\Desktop\CS477\CS477_HW3_Hossain_Mir\problem3.cpp:78:37: error: cannot convert 'char*' to 'int*' for argument '1' to 'void mergeSubArrays(int*, int*, int, int, int)'
+    mergeSubArrays(arr, temp, p, q, r);
+                                     ^
+C:\Users\wonde\Desktop\CS477\CS477_HW3_Hossain_Mir\problem3.cpp: In function 'int main()':
+C:\Users\wonde\Desktop\CS477\CS477_HW3_Hossain_Mir\problem3.cpp:93:28: error: cannot convert 'int*' to 'char*' for argument '1' to 'void mergeSort(char*, char*, int, int)'
+  mergeSort(arr, temp, 0, 14);
+                            ^
